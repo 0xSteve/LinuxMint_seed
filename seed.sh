@@ -32,6 +32,7 @@ apt-get -y install gparted
 apt-get -y install vim
 apt-get -y install inkscape
 apt-get -y install kdenlive
+apt-get -y install openshot
 apt-get -y install clementine
 apt-get -y install okular
 # Git is more than likely to be there already.
@@ -48,3 +49,8 @@ apt-get -y install freecad
 
 # Applications that need to be downloaded manually.
 # Discord: https://discordapp.com/
+# ATOM: https://atom.io/
+
+# package installs for sublime-text
+# Latexing
+# Anaconda
