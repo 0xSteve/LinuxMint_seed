@@ -15,6 +15,7 @@ apt-get install ubuntu-restricted-extras
 
 sudo add-apt-repository -y ppa:obsproject/obs-studio
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
 
 # Start installing core applications.
@@ -36,11 +37,13 @@ apt-get -y install openshot
 apt-get -y install clementine
 apt-get -y install okular
 # Git is more than likely to be there already.
-apt-get -y install git 
+apt-get -y install git
 apt-get -y install ipe
 apt-get -y install texlive
 apt-get -y install texlive-full
 apt-get -y install r-base
+apt-get -y install atom
+apt-get -y install npm
 
 # Don't forget the fun stuff!
 apt-get -y install arduino
@@ -49,7 +52,7 @@ apt-get -y install freecad
 
 # Applications that need to be downloaded manually.
 # Discord: https://discordapp.com/
-# ATOM: https://atom.io/
+# ATOM: https://atom.io/  # If you don't use the package
 
 # package installs for sublime-text
 # Latexing
